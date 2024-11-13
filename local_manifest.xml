@@ -5,7 +5,7 @@
 
         <!-- Trees -->
   <project path="device/xiaomi/sagit" name="android_device_xiaomi_sagit" remote="sagit-id" revision="pixelage-su" />
-  <project path="device/xiaomi/msm8998-common" name="android_device_xiaomi_msm8998-common" remote="sagit-id" revision="pixel" />
+  <project path="device/xiaomi/msm8998-common" name="android_device_xiaomi_msm8998-common" remote="sagit-id" revision="pixelage" />
   <project path="vendor/xiaomi/sagit" name="proprietary_vendor_xiaomi_sagit" remote="sagit-id" revision="pixelage" />
   <project path="vendor/xiaomi/msm8998-common" name="proprietary_vendor_xiaomi_msm8998-common" remote="sagit-id" revision="pixelage" />
   <project path="kernel/xiaomi/msm8998" name="android_kernel_xiaomi_msm8998" remote="sagit-id" revision="pixelage" />
@@ -14,4 +14,6 @@
   <project path="hardware/lineage/livedisplay" name="android_hardware_lineage_livedisplay" remote="sagit-id" revision="lineage-21.0" />
   <remove-project path="hardware/lineage/compat" name="android_hardware_lineage_compat" remote="pixelage" />
   <project path="hardware/lineage/compat" name="android_hardware_lineage_compat" remote="sagit-id" revision="15" />
+  <remove-project path="hardware/qcom-caf/msm8998/audio" name="android_hardware_qcom_audio" groups="qcom,legacy-qcom" revision="lineage-22.0-caf-msm8998" remote="lineage" />
+  <project path="hardware/qcom-caf/msm8998/audio" name="android_hardware_qcom_audio" remote="sagit-id" revision="lineage-22.0-caf-msm8998" />
 </manifest>
