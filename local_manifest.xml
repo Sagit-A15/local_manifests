@@ -12,8 +12,6 @@
   <project path="vendor/sagit/keys" name="vendor_sagit_keys" remote="sagit-id" revision="main" />
   <project path="hardware/xiaomi" name="android_hardware_xiaomi" remote="sagit-id" revision="lineage-21" />
   <project path="hardware/lineage/livedisplay" name="android_hardware_lineage_livedisplay" remote="sagit-id" revision="lineage-21.0" />
-  <remove-project path="hardware/lineage/compat" name="android_hardware_lineage_compat" remote="pixelage" />
-  <project path="hardware/lineage/compat" name="android_hardware_lineage_compat" remote="sagit-id" revision="15" />
   <remove-project path="hardware/qcom-caf/msm8998/audio" name="android_hardware_qcom_audio" groups="qcom,legacy-qcom" revision="lineage-22.0-caf-msm8998" remote="lineage" />
   <project path="hardware/qcom-caf/msm8998/audio" name="android_hardware_qcom_audio" remote="sagit-id" revision="lineage-22.0-caf-msm8998" />
   <remove-project path="frameworks/base" name="android_frameworks_base" remote="pixelage" />
