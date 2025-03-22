@@ -11,6 +11,4 @@
   <project path="vendor/xiaomi/msm8998-common" name="proprietary_vendor_xiaomi_msm8998-common" remote="sagit-id" revision="lineage-22.2" />
   <project path="vendor/sagit/keys" name="vendor_sagit_keys" remote="sagit-id" revision="main" />
    <project path="hardware/xiaomi" name="android_hardware_xiaomi" remote="los" revision="lineage-22.2" />
- <remove-project path="frameworks/base" name="android_frameworks_base" remote="pixelage" />
- <project path="frameworks/base" name="android_frameworks_base" remote="sagit-id" revision="15" />
 </manifest>
