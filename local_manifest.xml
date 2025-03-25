@@ -2,7 +2,7 @@
 <manifest>
         <!-- Remote -->
         <remote name="sagit-id" fetch="https://github.com/Sagit-A15" clone-depth="1" />
-        <remote name="los" fetch="https://github.com/crdroidandroid" clone-depth="1" />
+        <remote name="cr" fetch="https://github.com/crdroidandroid" clone-depth="1" />
 
         <!-- Trees -->
   <project path="device/xiaomi/sagit" name="android_device_xiaomi_sagit" remote="sagit-id" revision="cr-15" />
