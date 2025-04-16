@@ -2,7 +2,7 @@
 <manifest>
         <!-- Remote -->
         <remote name="sagit-id" fetch="https://github.com/Sagit-A15" clone-depth="1" />
-        <remote name="los" fetch="https://github.com/LineageOS" clone-depth="1" />
+        <remote name="axion15" fetch="https://github.com/AxionAOSP" clone-depth="1" />
 
         <!-- Trees -->
   <project path="device/xiaomi/sagit" name="android_device_xiaomi_sagit" remote="sagit-id" revision="axion-15" />
@@ -11,7 +11,5 @@
   <project path="vendor/xiaomi/msm8998-common" name="proprietary_vendor_xiaomi_msm8998-common" remote="sagit-id" revision="lineage-22.2" />
   <project path="kernel/xiaomi/msm8998" name="android_kernel_xiaomi_msm8998-cip" remote="sagit-id" revision="lineage-22.2" />
   <project path="vendor/sagit/keys" name="vendor_sagit_keys" remote="sagit-id" revision="main" />
-  <project path="hardware/xiaomi" name="android_hardware_xiaomi" remote="los" revision="lineage-22.2" />
-  <remove-project path="build/soong" name="android_build_soong" groups="pdk,tradefed,sysui-studio" remote="axion" />
-  <project path="build/soong" name="android_build_soong" remote="sagit-id" revision="lineage-22.2" />
+  <project path="hardware/xiaomi" name="android_hardware_xiaomi" remote="axion15" revision="lineage-22.2" />
 </manifest>
